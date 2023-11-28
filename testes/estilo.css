@@ -11,8 +11,8 @@ body{
 }
 #person{
  width: 83px;
- position: relative;
- left: 87%;
+ position: fixed;
+ left: 93%;
 }
 #logo{
   margin-left:-13px;
@@ -75,63 +75,4 @@ color: white;
   position: relative;
   left: 25%;
   top: 90px;
-}
-.rodape{
-  background-repeat: no-repeat;
-  margin-top: 50px;
-  background-color: #0091b6 ;
-  background-image: url(imagens/teste.png);
-  margin-bottom: -5%;
-}
-#localizacao{
-  border-radius: 5px;
-  margin-top: 7px;
-}
-.icones{
-  color: black;
-  font-size: 30px;
-}
-
-.lado{
-  float: left;
-  display: block;
-}
-
-#capa{
-  height: auto;
-  /* padding: 0%; */
-  margin-top: 30px;
-  /* width: 100%; */
-  max-width: 100%;
-}
-
-#texto{ 
-  padding: 20px;
-  color: #FFF;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 100%; /* 24px */
-  /* z-index: 2;
-  position: absolute;
-  left: 50%;
-  top: 25%; */
-  /* width: 585px;
-  height: 231px; */
-  border-radius: 18px;
-  background: rgba(0, 100, 177, 0.90);
-}
-
-/* @media (max-width: 576px){
-  .texto-inicial{
-    display: none;
-  }
-} */
-
-
-
-@media (max-width: 576px){
-  #capa {
-    width: 100% ;
-  }
 }
