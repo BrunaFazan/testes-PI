@@ -8,8 +8,28 @@ header{
   font-size: 18px;
 }
 
+/* estilo do contraste */
+.high-contrast {
+  background-color: #000 !important;
+  color: #fff !important;
+}
 
-#logo{
+.high-contrast a {
+  color: #00f !important;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.high-contrast img {
+  filter: invert(1); 
+}
+/* final alteração do contraste */
+
+
+logo{
   width: 90%;
 }
 
@@ -40,7 +60,7 @@ header{
 
 #capa{
   padding: 0px;
-  margin-top: 30px;
+  margin-top: 5px;
 
 }
 
