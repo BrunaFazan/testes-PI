@@ -39,15 +39,13 @@ header{
 }
 
 #capa{
-  height: auto;
-  padding: 0%;
+  padding: 0px;
   margin-top: 30px;
-  width: 100%;
-  max-width: 100%;
 
 }
 
 #texto{ 
+  text-align: center;
   padding: 20px;
   color: #FFF;
   font-size: 24px;
@@ -100,11 +98,7 @@ header{
 
 
 
-@media (max-width: 576px){
-  #capa {
-    width: 100% ;
-  }
-}
+
 
 /* inicio formulários */
 .container-googlebox{
@@ -262,13 +256,7 @@ header{
   display: block;
 }
 
-#capa{
-  height: auto;
-  /* padding: 0%; */
-  margin-top: 30px;
-  /* width: 100%; */
-  max-width: 100%;
-}
+
 
 #caixatexto{
   width: 1300px;
@@ -318,8 +306,4 @@ header{
     width: 170px;
     padding: 1px;
   }
-  #capa {
-    width: 100% ;
-  }
-
 }
