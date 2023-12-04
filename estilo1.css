@@ -28,6 +28,12 @@ img {
 }
 /* final alteração do contraste */
 
+ /* botão politica de privacidade */
+#privacidade :hover{
+  color: white;
+  text-decoration: none;
+}
+
 
 logo{
   width: 90%;
@@ -73,7 +79,7 @@ logo{
   font-weight: 600;
   line-height: 100%;
   border-radius: 18px;
-  background: rgba(0, 100, 177, 0.90);
+  background: #0064B1AD;
 }
 #texto2{
   padding: 20px;
@@ -236,15 +242,17 @@ header{
 }
 
 .info{
-  background-color:hsl(206, 87%, 57%);
+  background-color:#0064B1AD;
   margin-top: 20px;
   background-repeat: no-repeat;
   margin-bottom: auto;
   margin-left: 10px;
   margin-right: 10px;
   border-radius: 20px;
-
-}
+  padding: 50px;
+  font-size: larger;
+  font-weight: bold;
+ }
 
 .rodape{
   background-repeat: no-repeat;
