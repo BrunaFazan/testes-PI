@@ -16,7 +16,7 @@
             crossorigin="anonymous">
     </head>
     <body>
-  <!--inicio cabecalho-->
+        <!--inicio cabecalho-->
         <header>
             <nav class="navbar navbar-expand-sm navbar-light">
                 <div class="container">
@@ -67,27 +67,43 @@
         </header>
         <!-- final cabeçalho -->
         <section>
-          <div class="justify-content-center d-flex">
-            <div style="width: 500px; height: 400px; margin-top: 20px; background-color: rgba(52, 159, 241, 0.65); border-radius: 23px;">
-            <div class="row container-fluid d-flex justify-content-center">
-              <h1 class="d-flex justify-content-center" style="margin-top: 30px;">Login</h1>
+            <div class="justify-content-center d-flex">
+                <div
+                    style="width: 500px; height: 400px; margin-top: 20px; background-color: rgba(52, 159, 241, 0.65); border-radius: 23px;">
+                    <div class="row container-fluid d-flex justify-content-center">
+                        <h1 class="d-flex justify-content-center" style="margin-top: 30px;">Login</h1>
+                    </div>
+                    <div class="row container-fluid d-flex justify-content-center">
+                        <form action="">
+                            <input class="col-12" type="email" name="" placeholder="E-mail:" id="">
+                        </form>
+                    </div>
+                    <div class="row container-fluid d-flex justify-content-center">
+                        <form action="">
+                            <input
+                                class="col-12"
+                                style="margin-top: 10px; margin-bottom: 20px;"
+                                type="password"
+                                name=""
+                                placeholder="Senha:"
+                                id="">
+                        </form>
+                    </div>
+                    <div class="row container-fluid d-flex justify-content-center">
+                        <form action="">
+                            <button class="btn btn-warning" style="width: 10em;">Login</button>
+                        </form>
+                    </div>
+                    <br>
+
+                    <div class="row container-fluid d-flex justify-content-center">
+                        <p class="col-12 d-flex justify-content-center">Não tem cadastro?
+                            <a style="color: #F86434; font-weight: 800px;" href="">Faça aqui!</a>
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="row container-fluid d-flex justify-content-center">
-                 <form action="">
-                   <input class="col-12" type="email" name="" placeholder="E-mail:" id="">
-                 </form>
-              </div>
-              <div class="row container-fluid d-flex justify-content-center">
-                <form action="">
-                  <input class="col-12" style="margin-top: 10px; margin-bottom: 50px;" type="password" name="" placeholder="Senha:" id="">
-                </form>
-             </div>
-             <div class="row container-fluid d-flex justify-content-center">
-                <p class="col-12 d-flex justify-content-center" >Não tem cadastro? <a style="color: #F86434; font-weight: 800px;" href=""> Faça aqui!</a></p>
-           </div>
-          </div>
-         </div>   
-      </section>
+        </section>
 
         <!-- inicio rodapé -->
         <footer class="d-flex justify-content-center text-light py-3 rodape">
@@ -131,21 +147,23 @@
                             alt="">
                     </a>
                 </p>
-                <button  id="privacidade" type="button" class="btn btn-warning"><a  href="politica_de_privacidade.pdf" >Política de Privacidade</a></button>
+                <button id="privacidade" type="button" class="btn btn-warning">
+                    <a href="politica_de_privacidade.pdf">Política de Privacidade</a>
+                </button>
             </div>
         </footer>
         <!-- final rodapé -->
 
-<!-- script v libras inicio -->
+        <!-- script v libras inicio -->
         <div vw="vw" class="enabled">
-                     <!-- inicio botão para contraste -->
-         <div class="row container-fluid justify-content-end d-flex  mb-3">
-            <div>
-                <button type="button" class="btn btn-warning" onclick="toggleContrast()"><img style="width: 20px; height: 20px;" src="imagens/iconecontraste.png" alt=""></button>
-                
+            <!-- inicio botão para contraste -->
+            <div class="row container-fluid justify-content-end d-flex  mb-3">
+                <div>
+                    <button type="button" class="btn btn-warning" onclick="toggleContrast()"><img style="width: 20px; height: 20px;" src="imagens/iconecontraste.png" alt=""></button>
+
+                </div>
+                <!-- final botão para contraste -->
             </div>
-                    <!-- final botão para contraste -->
-        </div>
             <div vw-access-button="vw-access-button" class="active"></div>
             <div vw-plugin-wrapper="vw-plugin-wrapper">
                 <div class="vw-plugin-top-wrapper"></div>
@@ -170,26 +188,33 @@
             src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
             integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
             crossorigin="anonymous"></script>
-    <!-- final v libras -->
-    <!-- inicio script contraste  -->
-    <script>''
-        function toggleContrast() {
-            var body = document.body;
-            var isHighContrast = body.classList.contains('high-contrast');
+        <!-- final v libras -->
+        <!-- inicio script contraste -->
+        <script>
+            ''
+            function toggleContrast() {
+                var body = document.body;
+                var isHighContrast = body
+                    .classList
+                    .contains('high-contrast');
 
-            if (isHighContrast) {
-                body.classList.remove('high-contrast');
-            } else {
-                body.classList.add('high-contrast');
+                if (isHighContrast) {
+                    body
+                        .classList
+                        .remove('high-contrast');
+                } else {
+                    body
+                        .classList
+                        .add('high-contrast');
+                }
             }
-        }
-    </script>
-    <!-- final contraste -->
-    <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+        </script>
+        <!-- final contraste -->
+        <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
 
-    <!-- aviso de privacidade inicio -->
+        <!-- aviso de privacidade inicio -->
 
-    <!-- aviso de privacidade fim -->
+        <!-- aviso de privacidade fim -->
 
     </body>
 </html>
